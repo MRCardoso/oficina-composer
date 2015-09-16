@@ -13,11 +13,16 @@
 	
 	$string = "Marlon Ribeiro Cardoso";
 	$slug = $slugifier->slugify($string);
-	echo $slug."<br><hr>";
-	echo $string."<br> brasilian helpers<br>";
 	
-
+	echo "Normal: {$string} <br><hr>";
+	echo "Slug: {$slug} <br>";
+	
+	echo "brasilian helpers<br>";
+	
 	$states = Test::getStates();
 	echo "<pre>";
 	Var_dump($states);
 	echo "</pre>";
+	
+	echo "States dropdown<br>";
+	echo "<select>". Teste::getHtmlForSelectElement()."</select>";
