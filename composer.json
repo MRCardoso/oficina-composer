@@ -1,10 +1,13 @@
 {
-	"name": "oficina-conposer",
+	"name": "ftsl/conposer", // name of the your package
 	"description":"oficina de composer ftsl 2015",
+	"licence": "MRC",
+	"type": "library",
 	"require": {
 		"php": ">=5.5",
 		"kevinlebrun/slug.php": "dev-master",
-		"andrebian/brazilian-helpers": "dev-master"
+		"andrebian/brazilian-helpers": "dev-master",
+		"php-excel-header": "2.21"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.X"
@@ -12,5 +15,23 @@
 	"minimum stability": "dev",
 	"config": {
 		"vendor-dir": "lib" //define the vendor dir where are save your dependences
-	}	
+	},
+	"extras":{
+		"installer-paths":{
+			"PluginPagSeguro":["andrebian/pag_seguro"]
+		}
+	},
+	"repositories": [
+	        {
+	            "type": "vcs",
+	            "package":{
+	            	"name": "php-excel-header",
+	            	"version": "2.21",
+	            	"dist": {
+	            		"type":"http",
+	            		"url":""
+	            	}
+	            }
+		}
+	],
 }
