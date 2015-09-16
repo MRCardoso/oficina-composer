@@ -24,8 +24,9 @@ set this code in file composer.json
     composer update
 
 
-## create you owner package
+## create you own package
 ```
+the basic required
 {
 	"name": "vendor/package", // name of the your package
 	"description":"description of the your package",
