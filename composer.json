@@ -1,0 +1,13 @@
+{
+	"name": "oficina-conposer",
+	"description":"oficina de composer ftsl 2015",
+	"require": {
+		"php": ">=5.5",
+		"kevinlebrun/slug.php": "dev-master",
+		"andrebian/brazilian-helpers": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.X"
+	}
+		
+}
