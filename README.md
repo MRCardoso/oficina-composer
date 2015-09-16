@@ -17,5 +17,8 @@ set this code in file composer.json
   },
 }
 ```
-## install dependencies
+## install packages composer
     composer install
+    
+## for update the dependences future changes
+    composer update
