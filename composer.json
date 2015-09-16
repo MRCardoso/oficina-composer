@@ -8,6 +8,9 @@
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.X"
-	}
-		
+	},
+	"minimum stability": "dev",
+	"config": {
+		"vendor dir": "lib" //define the vendor dir where are save your dependences
+	}	
 }
