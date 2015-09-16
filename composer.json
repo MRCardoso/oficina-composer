@@ -1,5 +1,5 @@
 {
-	"name": "ftsl/conposer", // name of the your package
+	"name": "ftsl/conposer",
 	"description":"oficina de composer ftsl 2015",
 	"licence": "MRC",
 	"type": "library",
@@ -7,31 +7,27 @@
 		"php": ">=5.5",
 		"kevinlebrun/slug.php": "dev-master",
 		"andrebian/brazilian-helpers": "dev-master",
-		"php-excel-header": "2.21"
+		"php-excel-reader": "2.21"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.X"
 	},
-	"minimum stability": "dev",
-	"config": {
-		"vendor-dir": "lib" //define the vendor dir where are save your dependences
-	},
-	"extras":{
-		"installer-paths":{
-			"PluginPagSeguro":["andrebian/pag_seguro"]
+	"minimum-stability": "dev",
+	"extras": {
+		"installer-paths": {
+		    "Plugin/PagSeguro": ["andrebian/pag_seguro"]
 		}
 	},
 	"repositories": [
-	        {
-	            "type": "vcs",
-	            "package":{
-	            	"name": "php-excel-header",
-	            	"version": "2.21",
-	            	"dist": {
-	            		"type":"http",
-	            		"url":""
-	            	}
-	            }
-		}
-	],
+	{   
+	    "type": "package",
+	    "package": {
+	        "name": "php-excel-reader",
+	        "version": "2.21",
+	        "dist": {
+	            "type": "zip",
+	            "url": "https://php-excel-reader.googlecode.com/files/php-excel-reader-2.21.zip"
+	        }
+	    }
+	}]
 }
