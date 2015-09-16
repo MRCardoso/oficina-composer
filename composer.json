@@ -11,6 +11,6 @@
 	},
 	"minimum stability": "dev",
 	"config": {
-		"vendor dir": "lib" //define the vendor dir where are save your dependences
+		"vendor-dir": "lib" //define the vendor dir where are save your dependences
 	}	
 }
