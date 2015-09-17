@@ -1,6 +1,6 @@
 # oficina-composer
-
-
+## aulas composer
+http://www.andrebian.com/composer-na-pratica/
 ## install composer
     php -r "readfile('https://getcomposer.org/installer');" | php
     sudo mv composer.phar /usr/local/bin/composer
