@@ -6,29 +6,7 @@
 	"version": "0.0.1",
 	"require": {
 		"php": ">=5.5",
-		"kevinlebrun/slug.php": "dev-master",
 		"andrebian/brazilian-helpers": "dev-master",
-		"php-excel-reader": "2.21"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "4.X"
 	},
 	"minimum-stability": "dev",
-	"extras": {
-		"installer-paths": {
-		    "Plugin/PagSeguro": ["andrebian/pag_seguro"]
-		}
-	},
-	"repositories": [
-	{   
-	    "type": "package",
-	    "package": {
-	        "name": "php-excel-reader",
-	        "version": "2.21",
-	        "dist": {
-	            "type": "zip",
-	            "url": "https://php-excel-reader.googlecode.com/files/php-excel-reader-2.21.zip"
-	        }
-	    }
-	}]
 }
