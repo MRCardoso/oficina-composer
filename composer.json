@@ -13,7 +13,7 @@
 	"require-dev": {
 		"phpunit/phpunit": "4.X"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
 	"extras": {
 		"installer-paths": {
 		    "Plugin/PagSeguro": ["andrebian/pag_seguro"]
