@@ -6,7 +6,7 @@
 	"version": "0.0.1",
 	"require": {
 		"php": ">=5.5",
-		"andrebian/brazilian-helpers": "dev-master",
+		"andrebian/brazilian-helpers": "dev-master"
 	},
 	"minimum-stability": "dev"
 }
