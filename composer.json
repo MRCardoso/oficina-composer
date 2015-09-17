@@ -3,7 +3,7 @@
 	"description":"oficina de composer ftsl 2015",
 	"licence": "MRC",
 	"type": "library",
-	"version": "0.0.1",
+	"version": "1",
 	"require": {
 		"php": ">=5.5",
 		"andrebian/brazilian-helpers": "dev-master"
