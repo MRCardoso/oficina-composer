@@ -8,5 +8,5 @@
 		"php": ">=5.5",
 		"andrebian/brazilian-helpers": "dev-master",
 	},
-	"minimum-stability": "dev",
+	"minimum-stability": "dev"
 }
