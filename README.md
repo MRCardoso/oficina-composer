@@ -35,3 +35,5 @@ the basic required
 	"require":{ your dependencies }
 }
 ```
+
+[Install Laravel and fun](https://laravel.com/docs/8.x/installation#installation-via-composer)
